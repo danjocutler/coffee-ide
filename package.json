@@ -1,0 +1,32 @@
+{
+  "name": "coffee-ide",
+  "version": "1.0.0",
+  "description": "Makers-ide using coffee-script",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danjocutler/coffee-ide.git"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danjocutler/coffee-ide/issues"
+  },
+  "homepage": "https://github.com/danjocutler/coffee-ide",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "ejs": "^1.0.0",
+    "express": "^4.10.1",
+    "express-ejs-layouts": "^1.1.0",
+    "mocha": "^2.0.1",
+    "socket.io": "^1.2.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1",
+    "zombie": "^2.1.1"
+  }
+}
